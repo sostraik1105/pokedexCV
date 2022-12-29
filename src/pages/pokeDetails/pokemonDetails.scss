@@ -1,0 +1,67 @@
+.pokeDetails {
+  .description {
+    &__title {
+      text-align: center;
+      color: #000;
+      font-size: 3rem;
+    }
+
+    &__id {
+      right: 4rem;
+      font-weight: 700;
+      color: #000;
+      opacity: 0.3;
+      position: absolute;
+      font-size: 3rem;
+    }
+
+    &__sprite {
+      width: 70%;
+      margin-top: 2rem;
+      position: relative;
+      left: 15%;
+    }
+
+    .types {
+      text-align: center;
+
+      span {
+        font-size: 1.5rem;
+        background-color: black;
+      }
+    }
+  }
+
+  .moves {
+    width: 90%;
+    background-color: var(--c-background-dark);
+    position: relative;
+    left: 5%;
+    border-radius: 0.5rem;
+
+    h2 {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--c-background);
+    }
+
+    ul {
+      padding: 0 1rem 1.5rem 1rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+
+      li {
+        text-align: center;
+        font-weight: 600;
+        width: 31%;
+        padding: 0.3rem 0;
+        color: #000;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+        background-color: var(--c-background);
+      }
+    }
+  }
+}
