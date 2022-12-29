@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { getPokemonByParams } from '../../app/slices/pokemonSlice';
+import { getPokemonByParams } from '../../app/Slices/pokemonSlice';
 import Spinner from '../../components/LoadingSpinner/Spinner';
 import Movements from '../../components/Movements/Movements';
 import { bgColorType, pokeId, colorType } from '../../helpers/helpers';
