@@ -10,6 +10,7 @@
 
     span {
       font-size: 3.5rem;
+      background-color: transparent;
       color: var(--c-background);
     }
   }
@@ -21,7 +22,7 @@
     margin: 1.5rem 0;
 
     .ball {
-      width: 6rem;
+      width: 20vw;
       position: absolute;
     }
 
@@ -36,6 +37,51 @@
     input {
       width: 70%;
       margin: 1.5rem 0;
+    }
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .home {
+    &__banner {
+      width: 50%;
+      display: inline-flex;
+
+      .ball {
+        width: 12vw;
+        position: absolute;
+      }
+    }
+
+    form {
+      width: 50%;
+      display: inline-block;
+      position: absolute;
+      bottom: calc(50% - 73.5px);
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .home {
+    max-width: 1440px;
+    left: calc(50% - 720px);
+
+    &__banner {
+      width: 50%;
+      display: inline-flex;
+
+      .ball {
+        width: 13rem;
+        position: absolute;
+      }
+    }
+
+    form {
+      width: 50%;
+      display: inline-block;
+      position: absolute;
+      bottom: calc(50% - 73.5px);
     }
   }
 }

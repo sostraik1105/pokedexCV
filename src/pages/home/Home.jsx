@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Footer } from '../../components';
 import './home.scss';
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
       <div className='home__banner'>
         <img
           className='ball'
-          src='https://firebasestorage.googleapis.com/v0/b/cv-danielpuchuri.appspot.com/o/Pokedex%2Fball_home.png?alt=media&token=b9a5ddf4-793f-4e43-aee4-00d1876e42b4'
+          src='https://firebasestorage.googleapis.com/v0/b/cv-danielpuchuri.appspot.com/o/Pokedex%2Fball_home.png?alt=media&token=4e484aa6-5d8d-4db2-aaf3-f8bb84acd9b8'
           alt='ball_home'
         />
         <img
@@ -39,6 +40,7 @@ const Home = () => {
         <br />
         <button>Next</button>
       </form>
+      <Footer />
     </div>
   );
 };
