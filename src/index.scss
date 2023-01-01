@@ -48,7 +48,6 @@
 body {
   font-family: var(--f-principal);
   background-color: var(--c-background-dark);
-  color: rgb(240, 202, 187);
 }
 
 ul {
@@ -76,6 +75,35 @@ button {
 
 select {
   font-family: 'Flexo';
+}
+
+select,
+input {
+  width: 100%;
+  height: 2rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.2rem;
+  text-transform: capitalize;
+}
+
+button {
+  background-color: transparent;
+  color: var(--c-yellow);
+  border: 1px solid var(--c-background);
+  border-radius: 0.8rem;
+  margin-right: 0.2rem;
+  width: 7rem;
+  padding: 0.5rem 1rem;
+}
+
+span {
+  background-color: #ffffff87;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem 0 0;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  position: relative;
 }
 
 /* Components */

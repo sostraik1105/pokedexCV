@@ -1,0 +1,41 @@
+.home {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  color: var(--c-yellow);
+
+  h1 {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+
+    span {
+      font-size: 3.5rem;
+      color: var(--c-background);
+    }
+  }
+
+  &__banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+
+    .ball {
+      width: 6rem;
+      position: absolute;
+    }
+
+    .pokes {
+      width: 90%;
+    }
+  }
+
+  form {
+    text-align: center;
+
+    input {
+      width: 70%;
+      margin: 1.5rem 0;
+    }
+  }
+}
